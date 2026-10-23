@@ -1,25 +1,33 @@
 {
   "expo": {
-    "name": "aaron-wants-a-cheap-eat",
+    "name": "Aaron wants a cheap eat",
     "slug": "aaron-wants-a-cheap-eat",
+    "scheme": "aaroncheapeat",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#0F172A"
+    },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.aaroncheapeat.app",
+      "infoPlist": {
+        "LSApplicationQueriesSchemes": ["just-eat", "deliveroo", "ubereats"]
+      }
     },
     "android": {
+      "package": "com.aaroncheapeat.app",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "backgroundColor": "#0F172A",
+        "foregroundImage": "./assets/android-icon-foreground.png"
       },
       "predictiveBackGestureEnabled": false
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
     }
   }
 }

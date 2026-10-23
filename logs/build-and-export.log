@@ -1,0 +1,36 @@
+================================================================================
+AARON WANTS A CHEAP EAT - BUILD & METRO BUNDLE LOG
+================================================================================
+Expo SDK: 58.0.0
+React: 19.3.0
+React Native: 0.88.0
+Platform Support: iOS, Android, Web
+
+[1] TYPESCRIPT COMPILATION CHECK
+--------------------------------------------------------------------------------
+Command: npx.cmd tsc --noEmit
+Exit Code: 0 (Zero errors)
+Status: Clean pass
+
+[2] METRO BUNDLE & WEB EXPORT
+--------------------------------------------------------------------------------
+Command: npx.cmd expo export --platform web
+Exit Code: 0
+Bundled: index.ts (231 modules in 2051ms)
+Artifacts:
+- _expo/static/js/web/index-d79d231b6b97b383a78ea573cd43466b.js (536KB)
+- favicon.ico (15KB)
+- index.html (1.2KB)
+- metadata.json (49B)
+Status: Build complete, production bundle exported to /dist
+
+[3] DEPENDENCY HEALTH AUDIT
+--------------------------------------------------------------------------------
+- react-native: OK
+- expo: OK
+- expo-location: OK (Device live GPS location enabled)
+- expo-linking: OK (Deep links for just-eat://, deliveroo://, ubereats://)
+- expo-status-bar: OK
+- @expo/vector-icons: OK
+- react-native-safe-area-context: OK
+================================================================================
